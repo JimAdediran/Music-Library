@@ -52,5 +52,8 @@
   text-align: center;
   background-repeat: no-repeat;
   background-size: auto;
-  
+}
+
+.footer{
+  background-color: grey;
 }
