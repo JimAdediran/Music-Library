@@ -25,7 +25,8 @@ async function getAllSongs(){
       <div className='header'><SearchBar songs={songs} setSongs={setSongs}/></div>
       <div className='header'><DisplaySong className='header' songs={songs}  getAllSongs={getAllSongs}/></div>
       <div className='header'><AddSong getAllSongs={getAllSongs} /></div>
-      <div className='footer'>Build <br></br>Your<br></br>Music<br></br>Library<br></br>Here!</div>
+      <div className='footer'>Build <br></br>Your<br></br>Music<br></br>Library<br></br>Here!
+      <br></br>Add Your Favorite Songs and Albums!</div>
     </div>
     
   );
